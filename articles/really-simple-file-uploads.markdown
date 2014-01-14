@@ -23,7 +23,7 @@ You will need a form in your browser for the file upload. I use Jade to generate
 The *form.action* will point to a route that handles the file upload. More below.
 
 ## Accessing the uploaded file
-If you're using recents versions of Node and Express, file uploads are a piece of cake. And I'll back this claim but
+If you're using recent versions of Node and Express, file uploads are a piece of cake. And I'll back this claim but
 before we go any further make sure you're familiar with [routes, requests and responses in Express](http://expressjs.com/guide.html).
 
 Okay, now let's justify the "piece of cake" claim. In our file upload route, the *req* parameter has *req.files*
